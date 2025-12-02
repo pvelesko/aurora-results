@@ -1,0 +1,117 @@
+=== Test Results for COMMIT: 3a4835a44a1ba852491089ccaf7ffab03eb48090 ===
+Timestamp: Tue 02 Dec 2025 12:32:31 PM UTC
+Job ID: 8179913.aurora-pbs-0001.hostmgmt.cm.aurora.alcf.anl.gov
+
+=== OpenCL Results ===
+
+--------------------------------------------------------------------------------
+device#                           0
+Name:                             Intel(R) Data Center GPU Max 1550
+pciBusID:                         16
+pciDeviceID:                      64
+multiProcessorCount:              448
+maxThreadsPerMultiProcessor:      65536
+isMultiGpuBoard:                  0
+clockRate:                        1600 Mhz
+memoryClockRate:                  1 Mhz
+memoryBusWidth:                   256
+clockInstructionRate:             2.465 Mhz
+totalGlobalMem:                   60.79 GB
+maxSharedMemoryPerMultiProcessor: 0.00 GB
+totalConstMem:                    65267564544
+sharedMemPerBlock:                128.00 KB
+regsPerBlock:                     64
+warpSize:                         32
+l2CacheSize:                      201326592
+computeMode:                      0
+maxThreadsPerBlock:               1024
+maxThreadsDim.x:                  1024
+maxThreadsDim.y:                  1024
+maxThreadsDim.z:                  1024
+maxGridSize.x:                    65536
+maxGridSize.y:                    65536
+maxGridSize.z:                    65536
+major:                            2
+minor:                            0
+concurrentKernels:                1
+arch.hasGlobalInt32Atomics:       1
+arch.hasGlobalFloatAtomicExch:    0
+arch.hasSharedInt32Atomics:       1
+arch.hasSharedFloatAtomicExch:    0
+arch.hasFloatAtomicAdd:           0
+arch.hasGlobalInt64Atomics:       1
+arch.hasSharedInt64Atomics:       1
+arch.hasDoubles:                  1
+arch.hasWarpVote:                 0
+arch.hasWarpBallot:               1
+arch.hasWarpShuffle:              0
+arch.hasFunnelShift:              0
+arch.hasThreadFenceSystem:        0
+arch.hasSyncThreadsExt:           0
+arch.hasSurfaceFuncs:             0
+arch.has3dGrid:                   0
+arch.hasDynamicParallelism:       0
+maxTexture1DLinear:               0
+peers:                            
+non-peers:                        device#0 
+
+memInfo.total:                    60.79 GB
+memInfo.free:                     60.79 GB (100%)
+
+
+=== Level0 Results ===
+
+--------------------------------------------------------------------------------
+device#                           0
+Name:                             Intel(R) Data Center GPU Max 1550
+pciBusID:                         16
+pciDeviceID:                      64
+multiProcessorCount:              448
+maxThreadsPerMultiProcessor:      64
+isMultiGpuBoard:                  0
+clockRate:                        1600 Mhz
+memoryClockRate:                  3.2 Mhz
+memoryBusWidth:                   64
+clockInstructionRate:             1.6 Mhz
+totalGlobalMem:                   60.79 GB
+maxSharedMemoryPerMultiProcessor: 0.00 GB
+totalConstMem:                    65267564544
+sharedMemPerBlock:                128.00 KB
+regsPerBlock:                     4096
+warpSize:                         32
+l2CacheSize:                      201326592
+computeMode:                      0
+maxThreadsPerBlock:               1024
+maxThreadsDim.x:                  1024
+maxThreadsDim.y:                  1024
+maxThreadsDim.z:                  1024
+maxGridSize.x:                    2147483647
+maxGridSize.y:                    2147483647
+maxGridSize.z:                    2147483647
+major:                            2
+minor:                            0
+concurrentKernels:                1
+arch.hasGlobalInt32Atomics:       1
+arch.hasGlobalFloatAtomicExch:    0
+arch.hasSharedInt32Atomics:       1
+arch.hasSharedFloatAtomicExch:    0
+arch.hasFloatAtomicAdd:           0
+arch.hasGlobalInt64Atomics:       1
+arch.hasSharedInt64Atomics:       1
+arch.hasDoubles:                  1
+arch.hasWarpVote:                 0
+arch.hasWarpBallot:               1
+arch.hasWarpShuffle:              0
+arch.hasFunnelShift:              0
+arch.hasThreadFenceSystem:        0
+arch.hasSyncThreadsExt:           0
+arch.hasSurfaceFuncs:             0
+arch.has3dGrid:                   0
+arch.hasDynamicParallelism:       0
+maxTexture1DLinear:               0
+peers:                            
+non-peers:                        device#0 
+
+memInfo.total:                    60.79 GB
+memInfo.free:                     60.79 GB (100%)
+
